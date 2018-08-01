@@ -26,7 +26,7 @@ AUTOMAKE_OPTIONS = 1.9.6 foreign subdir-objects
 
 SUBDIRS = .
 TESTS =
-XFAIL_TESTS =
+XFAIL_TESTS = test-thread_create
 TESTS_ENVIRONMENT =
 noinst_PROGRAMS =
 check_PROGRAMS =
@@ -1159,7 +1159,7 @@ libtests_a_SOURCES += glthread/thread.h glthread/thread.c
 
 ## begin gnulib module thread-tests
 
-TESTS += test-thread_self test-thread_create
+TESTS += test-thread_self
 check_PROGRAMS += test-thread_self test-thread_create
 test_thread_self_LDADD = $(LDADD) @LIBTHREAD@
 test_thread_create_LDADD = $(LDADD) @LIBMULTITHREAD@
