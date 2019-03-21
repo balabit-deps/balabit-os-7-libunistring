@@ -1,3 +1,10 @@
+libunistring (0.9.9-0ubuntu2) bionic; urgency=medium
+
+  * Cherry-pick pthread fix from upstream and disco release.
+    (LP: #1813587)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 21 Mar 2019 10:30:01 +0100
+
 libunistring (0.9.9-0ubuntu1) bionic; urgency=medium
 
   * New upstream release
