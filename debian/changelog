@@ -1,3 +1,9 @@
+libunistring (0.9.9-0ubuntu2bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 06 Apr 2019 04:25:00 +0200
+
 libunistring (0.9.9-0ubuntu2) bionic; urgency=medium
 
   * Cherry-pick pthread fix from upstream and disco release.
